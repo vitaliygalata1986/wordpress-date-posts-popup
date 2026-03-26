@@ -1,0 +1,60 @@
+.dpp-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.dpp-post-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  }
+
+  &__button {
+    all: unset;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  &__thumb {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  &__content {
+    padding: 12px;
+  }
+
+  &__date {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 6px;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

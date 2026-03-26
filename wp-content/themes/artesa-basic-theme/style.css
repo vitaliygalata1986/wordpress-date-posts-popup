@@ -1,0 +1,94 @@
+/*
+Theme Name: Artesa Basic Theme
+Theme URI: https://github.com/vitaliygalata1986/wordpress-date-posts-popup
+Author: Vitaliy Halata
+Author URI: https://github.com/vitaliygalata1986
+Description: Minimal custom WordPress theme for test assignment.
+Version: 1.0.0
+Text Domain: artesa-basic-theme
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.site-header,
+.site-footer {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.site-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    width: 100%;
+    flex: 1;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+.entry-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.entry-meta {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.post-thumbnail {
+    margin-bottom: 20px;
+}
+
+.post-thumbnail img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.entry-content {
+    line-height: 1.7;
+}

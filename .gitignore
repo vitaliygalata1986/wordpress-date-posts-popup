@@ -1,0 +1,31 @@
+# =====================
+# IDE
+# =====================
+.idea/
+.vscode/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Node / Build
+# =====================
+/node_modules/
+/wp-content/plugins/date-posts-popup/node_modules/
+
+npm-debug.log*
+yarn-error.log*
+
+# =====================
+# Logs & Cache
+# =====================
+*.log
+error_log
+
+# =====================
+# WordPress uploads
+# =====================
+/wp-content/uploads/
